@@ -46,7 +46,7 @@ possibilities = [
 ]
 
 
-def transform_case(case: str):
+def transform_case(case: str) -> str:
     new_str = case
 
     for p in possibilities:
